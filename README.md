@@ -21,10 +21,9 @@ To run file:
 Screenshots:
 </br>
 
-![image](https://user-images.githubusercontent.com/72010214/143812284-e12a1980-61ca-4034-ab16-c1fa0a59f52b.png)
- 
-</br>
-![image](https://user-images.githubusercontent.com/72010214/143812278-494aa76a-6a7a-4be5-a3ba-9013da7b71c7.png)
+![image](https://user-images.githubusercontent.com/72010214/143812284-e12a1980-61ca-4034-ab16-c1fa0a59f52b.png) </br>
+![image](https://user-images.githubusercontent.com/72010214/143812395-512416ad-5bc6-4928-b3c1-7c8937c0d7f7.png)
+
 For more details:
 <pre>
 Contact me at: </br>
