@@ -7,7 +7,7 @@ To use this program:
 
 To download the files:
   ```
-  git clone https://github.com/Hat1412/Face-Lock.git
+  git clone https://github.com/Hat1412/ColorDetection.git
   cd ColorDetection
   pip install -r requirements.txt
   ```
