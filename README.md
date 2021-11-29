@@ -18,7 +18,11 @@ To run file:
   #In Linux/MacOS
   python3 ColorDetection.py
   ```
-  
+Screenshots:
+![image](https://user-images.githubusercontent.com/72010214/143812278-494aa76a-6a7a-4be5-a3ba-9013da7b71c7.png)
+</br>
+![image](https://user-images.githubusercontent.com/72010214/143812284-e12a1980-61ca-4034-ab16-c1fa0a59f52b.png)
+
 For more details:
 <pre>
 Contact me at: </br>
