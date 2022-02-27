@@ -44,6 +44,10 @@ def on_click(x, y, _, pressed):
             color_code = f"""{a} {'#%02x%02x%02x' % (a[0], a[1], a[2])} """
             color.set(color_code)
             history.insert(counter, color_code)
+            if counter > 0:
+                history.selection_clear(counter - 1)
+            history.selection_set(counter)
+            
             counter += 1
 
 
