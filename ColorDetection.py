@@ -7,8 +7,9 @@ from PIL import Image, ImageTk
 
 root = Tk()
 root.config(bg="#EFE4B0")
+H,W = 300,1000
 root.attributes("-topmost", True)
-
+root.geometry(f"{W}x{H}")
 color = StringVar()
 counter = 1
 scrollbar = Scrollbar(root)
@@ -38,10 +39,12 @@ def on_click(x, y, _, pressed):
     global history, counter
     a = pixel(x, y)
     if pressed:
-        color_code = f"""{a} {'#%02x%02x%02x' % (a[0], a[1], a[2])} """
-        color.set(color_code)
-        history.insert(counter, color_code)
-        counter += 1
+        if a[0] not in range(root.winfo_x(),root.winfo_x() + W+100) or a[1] not in range(root.winfo_y(),root.winfo_y() + H+50):
+   
+            color_code = f"""{a} {'#%02x%02x%02x' % (a[0], a[1], a[2])} """
+            color.set(color_code)
+            history.insert(counter, color_code)
+            counter += 1
 
 
 def tk_webcam():
@@ -62,7 +65,7 @@ Button(fr,text="Clear History", bg="#7092BE",
     command=lambda: history.delete(1, END)).grid(row=0, column=1)
 
 
-def stop_webcam(tmp):
+def stop_webcam(_):
     cap.release
     label.pack_forget()
 
