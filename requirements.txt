@@ -1,4 +1,3 @@
-pynput
-Image
-opencv-python
 pyautogui
+pynput
+tkinter
