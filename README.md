@@ -21,8 +21,10 @@ To run file:
   
   <h1> COLOR IS APPENDED TO YOUR CLIPBOARD </h1> </br>
 Screenshots:
-</br>
+</br></br>
+<img src="https://github.com/Hat1412/ColorDetection/blob/main/How_to_Use.png" width = 750 height = 500/>
 
+</br>
 For more details:
 <pre>
 
